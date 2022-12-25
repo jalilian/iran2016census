@@ -18,6 +18,6 @@ Download the shapefile (.shp) from the `shapefile` directory or use the followin
 library("sf")
 ir2016sf <- readRDS(url("https://github.com/jalilian/iran2016census/raw/main/iran2016census.rds", "rb"))
 library("ggplot2")
-ggplot(ir2016sf) + geom_sf(aes(fill=`male_5-9`))
+ggplot(ir2016sf) + geom_sf(aes(fill=`male_10-14`))
 ```
 ![iran counties](shapefile/irancounties.png)

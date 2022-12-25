@@ -12,7 +12,7 @@ Download the [iran2016census.csv](https://github.com/jalilian/iran2016census/raw
 ir2016pop <- read.csv("https://github.com/jalilian/iran2016census/raw/main/iran2016census.csv")
 by(ir2016pop$female, ir2016pop$age_group, sum)
 ```
-## Getting maps
+## Data on maps
 Download the [iran2016census.rds](https://github.com/jalilian/iran2016census/raw/main/iran2016census.rds) file or read it directly in `R` with
 ```
 library("sf")

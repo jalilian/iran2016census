@@ -16,6 +16,8 @@ by(ir2016pop$female, ir2016pop$age_group, sum)
 Download the shapefile (.shp) from the `shapefile` directory or use the following commands in `R`
 ```
 library("sf")
-ir2016map <- readRDS()
+ir2016sf <- readRDS(url("https://github.com/jalilian/iran2016census/raw/main/iran2016census.rds", "rb"))
+library("ggplot2")
+ggplot(ir2016sf) + geom_sf(aes(fill=`male_5-9`))
 ```
 ![iran counties](shapefile/irancounties.png)

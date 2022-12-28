@@ -14,12 +14,13 @@ library("readxl")
 library("stringr")
 
 # unzip ISC Excel files
-unzip("./SCIdata/jamiat.zip", exdir="jamiat/")
+exdir <- "pop2016census/"
+unzip("./SCIdata/population2016census.zip", exdir=exdir)
 
 pdata <- NULL
-for (fi in list.files("jamiat/"))
+for (fi in list.files(exdir))
 {
-  path <- paste0("jamiat/", fi)
+  path <- paste0(exdir, fi)
   cat("reading ", path, "\n")
   
   sht <- excel_sheets(path)

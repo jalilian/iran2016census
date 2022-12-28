@@ -99,6 +99,7 @@ popdata <- pdata %>%
 popdata <- popdata %>% 
   # fix county name spelling
   mutate(county_name=recode(county_name,
+                            "طوالش"="تالش",
                             "آران وبیدگل"="آران و بیدگل",
                             "اسلام آبادغرب"="اسلام آباد غرب",
                             "بو یین و میاندشت"="بوئین میاندشت",

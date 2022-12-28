@@ -32,4 +32,4 @@ ggplot(ir2016sf) + geom_sf(aes(fill=`male_10-14`))
 ```
 ![iran counties](shapefile/irancounties.png)
 
-A shapefile (.shp) file is also aviable in the `shapefile` directory.
+A shapefile (.shp) file is also available in the `shapefile` directory.

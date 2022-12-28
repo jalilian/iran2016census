@@ -3,7 +3,11 @@ Population of Iran according to the 2016 National Population and Housing Census 
   - county (429 counties in 31 provinces), 
   - gender (male and female) and 
   - age group (five-year age groups)
-  
+ 
+| Census      | Number of Provinces | Number of Counties | Population
+| ----------- | ----------- | ----------- | ----------- |
+| 2016        | 31          | 429         | 79926270 (40498442 male 39427828 female)
+| 2011        | 31          | 397         | 75149669 (37905669 male 37244000 female)
   Source: [Statistical Centre of Iran](https://www.amar.org.ir/english)
 
 ## Getting the data

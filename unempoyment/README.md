@@ -1,4 +1,4 @@
-| province_name       | province_code | county_name      | county_code | gender | education         | Active | Unemployed | Rate | Mean  | 2.5% CI | 97.5% CI |
+| Province name       | Province code | County name      | County code | Gender | Education         | Active population | Unemployed population | Unemployment rate | Mean  | 2.5% CI | 97.5% CI |
 |---------------------|---------------|------------------|-------------|--------|-------------------|--------|------------|------|-------|---------|----------|
 | تهران               | 23            | تهران            | 2301        | Male   | Elementary.school | 199735 | 6617       | 3.3  | 9     | 8.81    | 9.2      |
 | تهران               | 23            | تهران            | 2301        | Male   | Middle.school     | 311713 | 19823      | 6.4  | 9.99  | 9.8     | 10.18    |
